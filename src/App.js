@@ -22,7 +22,7 @@ export default function App() {
       <div className="advice-card">
         <h2 className="advice-text">{advice}</h2>
         <button className="advice-button" onClick={getAdvice}>
-          Get Advice
+          Get Advice!
         </button>
         <Message count={count} />
       </div>
