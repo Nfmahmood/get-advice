@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #a2c2e1, #f6f9fc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.app-title {
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.advice-card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.advice-text {
+  font-size: 18px;
+  color: #041052;
+  margin-bottom: 20px;
+}
+
+.advice-button {
+  background-color: #a4b8e5;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.advice-button:hover {
+  background-color: #041052;
+}
+
+.message-text {
+  font-size: 14px;
+  color: #989898;
+  margin-top: 20px;
+}
